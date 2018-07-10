@@ -1,0 +1,8 @@
+[package]
+name = "tungstenite-afl"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+
+[dependencies]
+afl = "0.4.0"
+tungstenite = {git = "https://github.com/snapview/tungstenite-rs.git"}
